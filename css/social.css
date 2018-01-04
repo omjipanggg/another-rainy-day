@@ -1,0 +1,57 @@
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+}
+.social-nav li {
+  display: inline-block;
+  padding: 2px;
+}
+.social-nav a {
+  display: inline-block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+  background: #000;
+  position: relative;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.model-8 a {
+  background: #FFF;
+}
+.model-8 a:hover {
+  -moz-box-shadow: 0 48px 0 inset;
+  -webkit-box-shadow: 0 48px 0 inset;
+  box-shadow: 0 48px 0 inset;
+}
+.model-8 a:hover > .fa {
+  color: #fff;
+}
+.model-8 .twitter {
+  color: #00ACED;
+}
+.model-8 .twitter:hover {
+  color: #00ACED;
+}
+.model-8 .facebook {
+  color: #3B579D;
+}
+.model-8 .facebook:hover {
+  color: #3B579D;
+}
+.model-8 .insta {
+  color: #f424d5;
+}
+.model-8 .insta:hover {
+  background: #f424d5;
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 425px) {
+
+}
+@media screen and (max-width: 768px) {
+	.headdd {
+		border-radius: 0;
+	}
+}
+@media screen and (max-width: 991px) {
+	.side {
+		display: none;
+	}
+}
